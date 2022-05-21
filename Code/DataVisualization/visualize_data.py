@@ -1,11 +1,6 @@
 import matplotlib.pyplot as plt
-
-def visualize_word2vec(w2v):
-    plt.scatter(result[:, 0], result[:, 1])
-    words = list(w2v.wv.vocab)
-    for i, word in enumerate(words):
-        plt.annotate(word, xy=(result[i, 0], result[i, 1]))
-    plt.show()
+import matplotlib
+matplotlib.use('module://backend_interagg')
 
 def draw_word_cloud(wordcloud):
     fig = plt.figure(1, figsize=(10, 5))

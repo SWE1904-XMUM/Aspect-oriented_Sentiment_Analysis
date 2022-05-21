@@ -13,6 +13,7 @@ def generate_wordcloud(numOfWord,tfidf,vector):
     tfidfWeights = [(word, vector.getcol(idx).sum()) for word, idx in tfidf.vocabulary_.items()]
 
     wordcloud = WordCloud(
+        background_color='white',
         max_words=numOfWord,
         max_font_size=40,
         scale=4).fit_words(dict(tfidfWeights))

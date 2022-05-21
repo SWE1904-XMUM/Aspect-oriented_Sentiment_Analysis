@@ -45,7 +45,7 @@ resultPath = '../Results/'
 
 # join different country app reviews csv into one csv
 # fbReview = pd.concat([fbAsMy,fbAsPh,fbAsSg,fbGpMy,fbGpPh,fbGpSg], ignore_index=True)
-# fbReview.to_csv(datasetPath + 'YouTube/YouTube_Reviews.csv')
+# fbReview.to_csv(datasetPath + 'Facebook/Facebook_Reviews.csv')
 
 '''Manage 6 app reviews'''
 # read 6 app reviews

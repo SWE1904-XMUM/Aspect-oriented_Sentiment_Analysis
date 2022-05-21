@@ -4,7 +4,7 @@ import numpy as np
 
 def app_store_scraper(appName,country,csvFileName):
     app = AppStore(country=country, app_name=appName)
-    app.review(how_many=500)
+    app.review(how_many=200)
 
     data = pd.DataFrame(np.array(app.reviews), columns=['review'])
     df = data.join(pd.DataFrame(data.pop('review').tolist()))

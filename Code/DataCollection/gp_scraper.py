@@ -8,7 +8,7 @@ def google_play_scraper(appName,country,csvFileName):
         lang='en',  # defaults to 'en'
         country=country,  # defaults to 'us'
         sort=Sort.NEWEST,  # defaults to Sort.MOST_RELEVANT
-        count=500,  # defaults to 100
+        count=200,  # defaults to 100
     )
 
     df = pd.DataFrame(np.array(r), columns=['review'])
