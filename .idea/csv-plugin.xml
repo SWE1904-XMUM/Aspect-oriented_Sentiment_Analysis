@@ -17,6 +17,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\Dataset\Facebook\Facebook_Reviews_(as_ph).csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\Dataset\Facebook\Facebook_Reviews_(as_sg).csv">
           <value>
             <Attribute>
@@ -24,7 +31,49 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\Dataset\FbMessenger\Facebook_Messenger_Reviews.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Dataset\FbMessenger\FbMessenger_Reviews_(as_my).csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Dataset\FbMessenger\FbMessenger_Reviews_(as_ph).csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Dataset\FbMessenger\FbMessenger_Reviews_(as_sg).csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\Dataset\Instagram\Instagram_Reviews.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Dataset\Instagram\Instagram_Reviews_(as_my).csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Dataset\Instagram\Instagram_Reviews_(as_ph).csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -67,6 +116,27 @@
           </value>
         </entry>
         <entry key="\Dataset\WeChat\WeChat_Reviews_(as_my).csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Dataset\WeChat\WeChat_Reviews_(gp_my).csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Dataset\WeChat\WeChat_Reviews_(gp_ph).csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Dataset\WeChat\WeChat_Reviews_(gp_sg).csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
